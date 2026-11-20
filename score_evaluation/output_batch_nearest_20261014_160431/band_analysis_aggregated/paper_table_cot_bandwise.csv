@@ -1,0 +1,13 @@
+﻿Band_Display,Method_Display,Rounding_Mode,N_mean,MAE_mean,MAE_std,Mean_Error_mean,Mean_Error_std,Within05_mean,Within05_std,Num_LLMs,Num_Files
+Low,Direct LLM,none,65,0.762,0.367,-0.414,0.706,0.532,0.171,5,5
+Low,Arithmetic Mean,nearest,65,0.734,0.343,0.555,0.45,0.545,0.295,5,5
+Low,Ridge Regression,nearest,65,1.038,0.112,0.992,0.149,0.302,0.115,5,5
+Low,LightGBM,nearest,65,1.083,0.082,1.062,0.092,0.277,0.086,5,5
+Medium,Direct LLM,none,436,1.141,0.379,-1.104,0.426,0.321,0.209,5,5
+Medium,Arithmetic Mean,nearest,436,0.546,0.092,-0.261,0.285,0.71,0.093,5,5
+Medium,Ridge Regression,nearest,436,0.478,0.018,0.157,0.028,0.769,0.022,5,5
+Medium,LightGBM,nearest,436,0.492,0.017,0.144,0.031,0.761,0.025,5,5
+High,Direct LLM,none,210,1.665,0.29,-1.642,0.305,0.189,0.086,5,5
+High,Arithmetic Mean,nearest,210,1.102,0.233,-1.087,0.248,0.318,0.119,5,5
+High,Ridge Regression,nearest,210,0.783,0.081,-0.616,0.055,0.522,0.057,5,5
+High,LightGBM,nearest,210,0.679,0.028,-0.616,0.062,0.574,0.042,5,5

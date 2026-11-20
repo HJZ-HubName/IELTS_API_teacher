@@ -1,0 +1,13 @@
+﻿方法代码,方法名称,Rounding_Mode,分数段,分段代码,样本数,MAE,RMSE,Within_0.5_Acc,"平均偏差(>0高估,<0低估)",输入文件
+ArithmeticMean,Arithmetic_Mean,nearest,"Low [0, 5]",low,65,0.8076923076923077,0.9825398797934949,0.46153846153846156,-0.5923076923076923,ielts_scoring_summary_20250708_GPT-4.1-nano_deduped.csv
+ArithmeticMean,Arithmetic_Mean,nearest,"Medium (5, 7]",medium,436,0.9988532110091743,1.210854956124243,0.39908256880733944,-0.9231651376146789,ielts_scoring_summary_20250708_GPT-4.1-nano_deduped.csv
+ArithmeticMean,Arithmetic_Mean,nearest,"High (7, 9]",high,210,1.2023809523809523,1.4731727988386478,0.34285714285714286,-1.2023809523809523,ielts_scoring_summary_20250708_GPT-4.1-nano_deduped.csv
+DirectLLM,Direct_LLM,none,"Low [0, 5]",low,65,0.7692307692307693,0.9240379612581692,0.36923076923076925,-0.6461538461538462,ielts_scoring_summary_20250708_GPT-4.1-nano_deduped.csv
+DirectLLM,Direct_LLM,none,"Medium (5, 7]",medium,436,1.1972477064220184,1.3950272102834385,0.28211009174311924,-1.1628440366972477,ielts_scoring_summary_20250708_GPT-4.1-nano_deduped.csv
+DirectLLM,Direct_LLM,none,"High (7, 9]",high,210,1.6333333333333333,1.8631770102243563,0.14285714285714285,-1.6333333333333333,ielts_scoring_summary_20250708_GPT-4.1-nano_deduped.csv
+LightGBM,LightGBM,nearest,"Low [0, 5]",low,65,1.0076923076923077,1.1652005439804376,0.4,0.9307692307692308,ielts_scoring_summary_20250708_GPT-4.1-nano_deduped.csv
+LightGBM,LightGBM,nearest,"Medium (5, 7]",medium,436,0.48623853211009177,0.6627368885811612,0.7591743119266054,0.1628440366972477,ielts_scoring_summary_20250708_GPT-4.1-nano_deduped.csv
+LightGBM,LightGBM,nearest,"High (7, 9]",high,210,0.6023809523809524,0.833095204071911,0.6142857142857143,-0.55,ielts_scoring_summary_20250708_GPT-4.1-nano_deduped.csv
+RidgeRegression,Ridge_Regression,nearest,"Low [0, 5]",low,65,0.8769230769230769,1.0377490433255416,0.49230769230769234,0.8615384615384616,ielts_scoring_summary_20250708_GPT-4.1-nano_deduped.csv
+RidgeRegression,Ridge_Regression,nearest,"Medium (5, 7]",medium,436,0.4724770642201835,0.6416363827795475,0.7775229357798165,0.12385321100917432,ielts_scoring_summary_20250708_GPT-4.1-nano_deduped.csv
+RidgeRegression,Ridge_Regression,nearest,"High (7, 9]",high,210,0.7261904761904762,0.9043545448866517,0.6142857142857143,-0.5404761904761904,ielts_scoring_summary_20250708_GPT-4.1-nano_deduped.csv

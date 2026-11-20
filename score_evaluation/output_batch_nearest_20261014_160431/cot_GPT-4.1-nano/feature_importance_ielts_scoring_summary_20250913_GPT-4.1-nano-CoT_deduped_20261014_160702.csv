@@ -1,0 +1,9 @@
+﻿Method,Method_Code,Rounding_Mode,Feature_Name,Importance_Score,Raw_File,Evaluation_Time
+LightGBM,LightGBM,nearest,ai_lexical_resource,626.1828740331304,ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped.csv,2026-10-14 16:07:03
+LightGBM,LightGBM,nearest,ai_coherence_and_cohesion,398.8692677135732,ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped.csv,2026-10-14 16:07:03
+LightGBM,LightGBM,nearest,ai_grammatical_range_and_accuracy,243.89219922869705,ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped.csv,2026-10-14 16:07:03
+LightGBM,LightGBM,nearest,ai_task_response,152.30760757412568,ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped.csv,2026-10-14 16:07:03
+Ridge_Regression,RidgeRegression,nearest,ai_coherence_and_cohesion,0.23309998251909053,ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped.csv,2026-10-14 16:07:03
+Ridge_Regression,RidgeRegression,nearest,ai_lexical_resource,0.21577018062595904,ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped.csv,2026-10-14 16:07:03
+Ridge_Regression,RidgeRegression,nearest,ai_grammatical_range_and_accuracy,0.2129451828718603,ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped.csv,2026-10-14 16:07:03
+Ridge_Regression,RidgeRegression,nearest,ai_task_response,0.1197739861901809,ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped.csv,2026-10-14 16:07:03

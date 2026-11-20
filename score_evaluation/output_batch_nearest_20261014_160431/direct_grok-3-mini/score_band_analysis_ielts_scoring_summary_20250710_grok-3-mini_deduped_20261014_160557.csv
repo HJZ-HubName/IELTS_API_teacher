@@ -1,0 +1,13 @@
+﻿方法代码,方法名称,Rounding_Mode,分数段,分段代码,样本数,MAE,RMSE,Within_0.5_Acc,"平均偏差(>0高估,<0低估)",输入文件
+ArithmeticMean,Arithmetic_Mean,nearest,"Low [0, 5]",low,65,1.6076923076923078,1.6698687189301853,0.0,1.6076923076923078,ielts_scoring_summary_20250710_grok-3-mini_deduped.csv
+ArithmeticMean,Arithmetic_Mean,nearest,"Medium (5, 7]",medium,436,0.5653669724770642,0.7322047891205091,0.6972477064220184,0.45756880733944955,ielts_scoring_summary_20250710_grok-3-mini_deduped.csv
+ArithmeticMean,Arithmetic_Mean,nearest,"High (7, 9]",high,210,0.5333333333333333,0.7822434160188003,0.6952380952380952,-0.5238095238095238,ielts_scoring_summary_20250710_grok-3-mini_deduped.csv
+DirectLLM,Direct_LLM,none,"Low [0, 5]",low,65,0.5769230769230769,0.7519206177414045,0.676923076923077,0.4846153846153846,ielts_scoring_summary_20250710_grok-3-mini_deduped.csv
+DirectLLM,Direct_LLM,none,"Medium (5, 7]",medium,436,0.5814220183486238,0.7673826599480802,0.6995412844036697,-0.3956422018348624,ielts_scoring_summary_20250710_grok-3-mini_deduped.csv
+DirectLLM,Direct_LLM,none,"High (7, 9]",high,210,1.0714285714285714,1.3237752650585946,0.3761904761904762,-1.0714285714285714,ielts_scoring_summary_20250710_grok-3-mini_deduped.csv
+LightGBM,LightGBM,nearest,"Low [0, 5]",low,65,1.0846153846153845,1.2263140518831845,0.35384615384615387,1.0846153846153845,ielts_scoring_summary_20250710_grok-3-mini_deduped.csv
+LightGBM,LightGBM,nearest,"Medium (5, 7]",medium,436,0.463302752293578,0.6522719644414668,0.7775229357798165,0.09174311926605505,ielts_scoring_summary_20250710_grok-3-mini_deduped.csv
+LightGBM,LightGBM,nearest,"High (7, 9]",high,210,0.6285714285714286,0.8864052604279183,0.5761904761904761,-0.5666666666666667,ielts_scoring_summary_20250710_grok-3-mini_deduped.csv
+RidgeRegression,Ridge_Regression,nearest,"Low [0, 5]",low,65,0.9384615384615385,1.1024448355290233,0.46153846153846156,0.9384615384615385,ielts_scoring_summary_20250710_grok-3-mini_deduped.csv
+RidgeRegression,Ridge_Regression,nearest,"Medium (5, 7]",medium,436,0.47591743119266056,0.6623041514220077,0.7614678899082569,0.09518348623853211,ielts_scoring_summary_20250710_grok-3-mini_deduped.csv
+RidgeRegression,Ridge_Regression,nearest,"High (7, 9]",high,210,0.6928571428571428,0.8639609779547751,0.6714285714285714,-0.4357142857142857,ielts_scoring_summary_20250710_grok-3-mini_deduped.csv

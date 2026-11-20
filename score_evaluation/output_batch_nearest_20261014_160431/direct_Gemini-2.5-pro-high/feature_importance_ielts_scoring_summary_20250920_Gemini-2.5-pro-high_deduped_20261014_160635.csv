@@ -1,0 +1,9 @@
+﻿Method,Method_Code,Rounding_Mode,Feature_Name,Importance_Score,Raw_File,Evaluation_Time
+LightGBM,LightGBM,nearest,ai_grammatical_range_and_accuracy,991.1895285985246,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv,2026-10-14 16:06:35
+LightGBM,LightGBM,nearest,ai_lexical_resource,453.85007570338433,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv,2026-10-14 16:06:35
+LightGBM,LightGBM,nearest,ai_coherence_and_cohesion,125.59637581629678,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv,2026-10-14 16:06:35
+LightGBM,LightGBM,nearest,ai_task_response,123.02104502471164,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv,2026-10-14 16:06:35
+Ridge_Regression,RidgeRegression,nearest,ai_grammatical_range_and_accuracy,0.4153017239317709,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv,2026-10-14 16:06:35
+Ridge_Regression,RidgeRegression,nearest,ai_lexical_resource,0.34207936372737285,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv,2026-10-14 16:06:35
+Ridge_Regression,RidgeRegression,nearest,ai_coherence_and_cohesion,0.1396788272524268,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv,2026-10-14 16:06:35
+Ridge_Regression,RidgeRegression,nearest,ai_task_response,0.014614602570013764,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv,2026-10-14 16:06:35

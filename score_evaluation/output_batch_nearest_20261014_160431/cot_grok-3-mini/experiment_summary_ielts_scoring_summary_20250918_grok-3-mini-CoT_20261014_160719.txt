@@ -1,0 +1,61 @@
+IELTS Writing Auto-Scoring - Experiment Summary
+============================================================
+
+时间: 2026-10-14 16:07:19
+数据文件: score_data_all\cot_all\ielts_scoring_summary_20250918_grok-3-mini-CoT.csv
+LLM: grok-3-mini
+Prompting: CoT
+样本数: 711
+CV: 5-fold × 10-repeat
+随机种子: 42
+
+半分取整规则:
+  M1: nearest
+  M2: nearest
+  M4: nearest
+
+性能 (mean ± std):
+------------------------------------------------------------
+
+Arithmetic_Mean:
+  MAE:        0.676±0.000
+  RMSE:       0.884±0.000
+  Pearson r:  0.623±0.000
+  QWK:        0.465±0.000
+  Within-0.5: 0.598±0.000
+
+Direct_LLM:
+  MAE:        0.838±0.000
+  RMSE:       1.072±0.000
+  Pearson r:  0.632±0.000
+  QWK:        0.428±0.000
+  Within-0.5: 0.533±0.000
+
+LightGBM:
+  MAE:        0.633±0.006
+  RMSE:       0.826±0.006
+  Pearson r:  0.663±0.006
+  QWK:        0.585±0.008
+  Within-0.5: 0.627±0.005
+
+Ridge_Regression:
+  MAE:        0.659±0.002
+  RMSE:       0.837±0.003
+  Pearson r:  0.650±0.003
+  QWK:        0.603±0.002
+  Within-0.5: 0.606±0.004
+
+生成文件 (13 个):
+  evaluation_metrics_ielts_scoring_summary_20250918_grok-3-mini-CoT_20261014_160714.csv
+  score_band_analysis_ielts_scoring_summary_20250918_grok-3-mini-CoT_20261014_160714.csv
+  significance_test_ielts_scoring_summary_20250918_grok-3-mini-CoT_20261014_160714.csv
+  feature_importance_ielts_scoring_summary_20250918_grok-3-mini-CoT_20261014_160714.csv
+  detailed_results_ielts_scoring_summary_20250918_grok-3-mini-CoT_20261014_160714.csv
+  oof_predictions_ielts_scoring_summary_20250918_grok-3-mini-CoT_20261014_160714.npz
+  method_comparison_ielts_scoring_summary_20250918_grok-3-mini-CoT_20261014_160714.png
+  prediction_scatter_ielts_scoring_summary_20250918_grok-3-mini-CoT_20261014_160714.png
+  error_distribution_ielts_scoring_summary_20250918_grok-3-mini-CoT_20261014_160714.png
+  feature_importance_ielts_scoring_summary_20250918_grok-3-mini-CoT_20261014_160714.png
+  score_band_analysis_ielts_scoring_summary_20250918_grok-3-mini-CoT_20261014_160714.png
+  error_boxplot_by_score_ielts_scoring_summary_20250918_grok-3-mini-CoT_20261014_160714.png
+  summary_ielts_scoring_summary_20250918_grok-3-mini-CoT_20261014_160714.png

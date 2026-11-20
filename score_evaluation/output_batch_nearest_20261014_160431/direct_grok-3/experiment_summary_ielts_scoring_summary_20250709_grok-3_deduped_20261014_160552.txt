@@ -1,0 +1,61 @@
+IELTS Writing Auto-Scoring - Experiment Summary
+============================================================
+
+时间: 2026-10-14 16:05:52
+数据文件: score_data_all\direct_all\ielts_scoring_summary_20250709_grok-3_deduped.csv
+LLM: grok-3
+Prompting: Direct
+样本数: 711
+CV: 5-fold × 10-repeat
+随机种子: 42
+
+半分取整规则:
+  M1: nearest
+  M2: nearest
+  M4: nearest
+
+性能 (mean ± std):
+------------------------------------------------------------
+
+Arithmetic_Mean:
+  MAE:        1.084±0.000
+  RMSE:       1.296±0.000
+  Pearson r:  0.718±0.000
+  QWK:        0.454±0.000
+  Within-0.5: 0.356±0.000
+
+Direct_LLM:
+  MAE:        1.072±0.000
+  RMSE:       1.309±0.000
+  Pearson r:  0.657±0.000
+  QWK:        0.357±0.000
+  Within-0.5: 0.387±0.000
+
+LightGBM:
+  MAE:        0.572±0.009
+  RMSE:       0.760±0.007
+  Pearson r:  0.724±0.006
+  QWK:        0.677±0.012
+  Within-0.5: 0.697±0.009
+
+Ridge_Regression:
+  MAE:        0.595±0.004
+  RMSE:       0.772±0.004
+  Pearson r:  0.713±0.004
+  QWK:        0.667±0.004
+  Within-0.5: 0.691±0.003
+
+生成文件 (13 个):
+  evaluation_metrics_ielts_scoring_summary_20250709_grok-3_deduped_20261014_160546.csv
+  score_band_analysis_ielts_scoring_summary_20250709_grok-3_deduped_20261014_160546.csv
+  significance_test_ielts_scoring_summary_20250709_grok-3_deduped_20261014_160546.csv
+  feature_importance_ielts_scoring_summary_20250709_grok-3_deduped_20261014_160546.csv
+  detailed_results_ielts_scoring_summary_20250709_grok-3_deduped_20261014_160546.csv
+  oof_predictions_ielts_scoring_summary_20250709_grok-3_deduped_20261014_160546.npz
+  method_comparison_ielts_scoring_summary_20250709_grok-3_deduped_20261014_160546.png
+  prediction_scatter_ielts_scoring_summary_20250709_grok-3_deduped_20261014_160546.png
+  error_distribution_ielts_scoring_summary_20250709_grok-3_deduped_20261014_160546.png
+  feature_importance_ielts_scoring_summary_20250709_grok-3_deduped_20261014_160546.png
+  score_band_analysis_ielts_scoring_summary_20250709_grok-3_deduped_20261014_160546.png
+  error_boxplot_by_score_ielts_scoring_summary_20250709_grok-3_deduped_20261014_160546.png
+  summary_ielts_scoring_summary_20250709_grok-3_deduped_20261014_160546.png

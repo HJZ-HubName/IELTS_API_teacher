@@ -1,0 +1,9 @@
+﻿Method,Method_Code,Rounding_Mode,Feature_Name,Importance_Score,Raw_File,Evaluation_Time
+LightGBM,LightGBM,nearest,ai_grammatical_range_and_accuracy,778.893043488001,ielts_scoring_summary_20250918_grok-3-mini-CoT.csv,2026-10-14 16:07:14
+LightGBM,LightGBM,nearest,ai_lexical_resource,235.0218215165352,ielts_scoring_summary_20250918_grok-3-mini-CoT.csv,2026-10-14 16:07:14
+LightGBM,LightGBM,nearest,ai_coherence_and_cohesion,110.09838683049847,ielts_scoring_summary_20250918_grok-3-mini-CoT.csv,2026-10-14 16:07:14
+LightGBM,LightGBM,nearest,ai_task_response,84.0381610359011,ielts_scoring_summary_20250918_grok-3-mini-CoT.csv,2026-10-14 16:07:14
+Ridge_Regression,RidgeRegression,nearest,ai_lexical_resource,0.28270646319146153,ielts_scoring_summary_20250918_grok-3-mini-CoT.csv,2026-10-14 16:07:14
+Ridge_Regression,RidgeRegression,nearest,ai_grammatical_range_and_accuracy,0.2806178625488159,ielts_scoring_summary_20250918_grok-3-mini-CoT.csv,2026-10-14 16:07:14
+Ridge_Regression,RidgeRegression,nearest,ai_coherence_and_cohesion,0.19306462009046935,ielts_scoring_summary_20250918_grok-3-mini-CoT.csv,2026-10-14 16:07:14
+Ridge_Regression,RidgeRegression,nearest,ai_task_response,0.07988830780734324,ielts_scoring_summary_20250918_grok-3-mini-CoT.csv,2026-10-14 16:07:14

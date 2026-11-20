@@ -1,0 +1,9 @@
+﻿Method,Method_Code,Rounding_Mode,Feature_Name,Importance_Score,Raw_File,Evaluation_Time
+LightGBM,LightGBM,nearest,ai_grammatical_range_and_accuracy,805.6754175793659,ielts_scoring_summary_20250920_gemini-2.5-flash-high-CoT.csv,2026-10-14 16:07:28
+LightGBM,LightGBM,nearest,ai_lexical_resource,453.2914975030301,ielts_scoring_summary_20250920_gemini-2.5-flash-high-CoT.csv,2026-10-14 16:07:28
+LightGBM,LightGBM,nearest,ai_coherence_and_cohesion,137.6684288573981,ielts_scoring_summary_20250920_gemini-2.5-flash-high-CoT.csv,2026-10-14 16:07:28
+LightGBM,LightGBM,nearest,ai_task_response,112.30825388558907,ielts_scoring_summary_20250920_gemini-2.5-flash-high-CoT.csv,2026-10-14 16:07:28
+Ridge_Regression,RidgeRegression,nearest,ai_grammatical_range_and_accuracy,0.3957681027028775,ielts_scoring_summary_20250920_gemini-2.5-flash-high-CoT.csv,2026-10-14 16:07:28
+Ridge_Regression,RidgeRegression,nearest,ai_lexical_resource,0.2573897121601368,ielts_scoring_summary_20250920_gemini-2.5-flash-high-CoT.csv,2026-10-14 16:07:28
+Ridge_Regression,RidgeRegression,nearest,ai_coherence_and_cohesion,0.17879379738750423,ielts_scoring_summary_20250920_gemini-2.5-flash-high-CoT.csv,2026-10-14 16:07:28
+Ridge_Regression,RidgeRegression,nearest,ai_task_response,0.07469327432679787,ielts_scoring_summary_20250920_gemini-2.5-flash-high-CoT.csv,2026-10-14 16:07:28

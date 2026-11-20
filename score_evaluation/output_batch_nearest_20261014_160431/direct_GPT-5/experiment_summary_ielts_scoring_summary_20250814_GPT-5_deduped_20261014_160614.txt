@@ -1,0 +1,61 @@
+IELTS Writing Auto-Scoring - Experiment Summary
+============================================================
+
+时间: 2026-10-14 16:06:14
+数据文件: score_data_all\direct_all\ielts_scoring_summary_20250814_GPT-5_deduped.csv
+LLM: GPT-5
+Prompting: Direct
+样本数: 711
+CV: 5-fold × 10-repeat
+随机种子: 42
+
+半分取整规则:
+  M1: nearest
+  M2: nearest
+  M4: nearest
+
+性能 (mean ± std):
+------------------------------------------------------------
+
+Arithmetic_Mean:
+  MAE:        0.853±0.000
+  RMSE:       1.061±0.000
+  Pearson r:  0.694±0.000
+  QWK:        0.503±0.000
+  Within-0.5: 0.496±0.000
+
+Direct_LLM:
+  MAE:        1.265±0.000
+  RMSE:       1.459±0.000
+  Pearson r:  0.724±0.000
+  QWK:        0.402±0.000
+  Within-0.5: 0.252±0.000
+
+LightGBM:
+  MAE:        0.614±0.009
+  RMSE:       0.796±0.010
+  Pearson r:  0.692±0.008
+  QWK:        0.639±0.028
+  Within-0.5: 0.667±0.012
+
+Ridge_Regression:
+  MAE:        0.613±0.003
+  RMSE:       0.788±0.003
+  Pearson r:  0.699±0.002
+  QWK:        0.658±0.003
+  Within-0.5: 0.651±0.005
+
+生成文件 (13 个):
+  evaluation_metrics_ielts_scoring_summary_20250814_GPT-5_deduped_20261014_160608.csv
+  score_band_analysis_ielts_scoring_summary_20250814_GPT-5_deduped_20261014_160608.csv
+  significance_test_ielts_scoring_summary_20250814_GPT-5_deduped_20261014_160608.csv
+  feature_importance_ielts_scoring_summary_20250814_GPT-5_deduped_20261014_160608.csv
+  detailed_results_ielts_scoring_summary_20250814_GPT-5_deduped_20261014_160608.csv
+  oof_predictions_ielts_scoring_summary_20250814_GPT-5_deduped_20261014_160608.npz
+  method_comparison_ielts_scoring_summary_20250814_GPT-5_deduped_20261014_160608.png
+  prediction_scatter_ielts_scoring_summary_20250814_GPT-5_deduped_20261014_160608.png
+  error_distribution_ielts_scoring_summary_20250814_GPT-5_deduped_20261014_160608.png
+  feature_importance_ielts_scoring_summary_20250814_GPT-5_deduped_20261014_160608.png
+  score_band_analysis_ielts_scoring_summary_20250814_GPT-5_deduped_20261014_160608.png
+  error_boxplot_by_score_ielts_scoring_summary_20250814_GPT-5_deduped_20261014_160608.png
+  summary_ielts_scoring_summary_20250814_GPT-5_deduped_20261014_160608.png

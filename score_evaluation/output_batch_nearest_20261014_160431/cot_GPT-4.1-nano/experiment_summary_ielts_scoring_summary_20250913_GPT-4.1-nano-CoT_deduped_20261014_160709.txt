@@ -1,0 +1,61 @@
+IELTS Writing Auto-Scoring - Experiment Summary
+============================================================
+
+时间: 2026-10-14 16:07:09
+数据文件: score_data_all\cot_all\ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped.csv
+LLM: GPT-4.1-nano
+Prompting: CoT
+样本数: 711
+CV: 5-fold × 10-repeat
+随机种子: 42
+
+半分取整规则:
+  M1: nearest
+  M2: nearest
+  M4: nearest
+
+性能 (mean ± std):
+------------------------------------------------------------
+
+Arithmetic_Mean:
+  MAE:        0.895±0.000
+  RMSE:       1.140±0.000
+  Pearson r:  0.668±0.000
+  QWK:        0.440±0.000
+  Within-0.5: 0.463±0.000
+
+Direct_LLM:
+  MAE:        1.466±0.000
+  RMSE:       1.670±0.000
+  Pearson r:  0.665±0.000
+  QWK:        0.283±0.000
+  Within-0.5: 0.187±0.000
+
+LightGBM:
+  MAE:        0.608±0.011
+  RMSE:       0.801±0.008
+  Pearson r:  0.686±0.007
+  QWK:        0.642±0.020
+  Within-0.5: 0.666±0.004
+
+Ridge_Regression:
+  MAE:        0.654±0.002
+  RMSE:       0.842±0.003
+  Pearson r:  0.644±0.003
+  QWK:        0.586±0.003
+  Within-0.5: 0.632±0.002
+
+生成文件 (13 个):
+  evaluation_metrics_ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped_20261014_160702.csv
+  score_band_analysis_ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped_20261014_160702.csv
+  significance_test_ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped_20261014_160702.csv
+  feature_importance_ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped_20261014_160702.csv
+  detailed_results_ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped_20261014_160702.csv
+  oof_predictions_ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped_20261014_160702.npz
+  method_comparison_ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped_20261014_160703.png
+  prediction_scatter_ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped_20261014_160703.png
+  error_distribution_ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped_20261014_160703.png
+  feature_importance_ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped_20261014_160703.png
+  score_band_analysis_ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped_20261014_160703.png
+  error_boxplot_by_score_ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped_20261014_160703.png
+  summary_ielts_scoring_summary_20250913_GPT-4.1-nano-CoT_deduped_20261014_160703.png

@@ -1,0 +1,37 @@
+IELTS 批量处理总结
+============================================================
+
+时间: 2026-10-14 16:07:45
+数据根目录: score_data_all
+CV: 5-fold × 10-repeat
+随机种子: 42
+可视化: 启用
+输出模式: 统一文件夹
+
+半分取整规则:
+  M1: nearest
+  M2: nearest
+  M4: nearest
+
+总计: 16
+成功: 16
+失败: 0
+
+成功的实验:
+  [Direct] GPT-4.1
+  [Direct] GPT-4.1-mini
+  [Direct] GPT-4.1-nano
+  [Direct] chatgpt-4o-latest
+  [Direct] GPT-4o
+  [Direct] gemini-2.5-flash
+  [Direct] grok-3
+  [Direct] grok-3-mini
+  [Direct] GPT-5
+  [Direct] GPT-5-mini
+  [Direct] Gemini-2.5-pro-high
+  [CoT   ] GPT-4.1-mini
+  [CoT   ] GPT-4.1-nano
+  [CoT   ] grok-3-mini
+  [CoT   ] gemini-2.5-flash-high
+  [CoT   ] Gemini-2.5-pro-high
+

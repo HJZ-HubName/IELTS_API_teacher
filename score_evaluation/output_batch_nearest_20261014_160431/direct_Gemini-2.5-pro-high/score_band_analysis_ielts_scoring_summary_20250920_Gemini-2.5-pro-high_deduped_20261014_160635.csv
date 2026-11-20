@@ -1,0 +1,13 @@
+﻿方法代码,方法名称,Rounding_Mode,分数段,分段代码,样本数,MAE,RMSE,Within_0.5_Acc,"平均偏差(>0高估,<0低估)",输入文件
+ArithmeticMean,Arithmetic_Mean,nearest,"Low [0, 5]",low,65,0.6307692307692307,0.8458041235325207,0.6461538461538462,0.2153846153846154,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv
+ArithmeticMean,Arithmetic_Mean,nearest,"Medium (5, 7]",medium,436,0.6135321100917431,0.7981486605912896,0.6720183486238532,-0.2213302752293578,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv
+ArithmeticMean,Arithmetic_Mean,nearest,"High (7, 9]",high,210,0.7452380952380953,0.9801603367379674,0.5952380952380952,-0.4880952380952381,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv
+DirectLLM,Direct_LLM,none,"Low [0, 5]",low,65,0.7307692307692307,0.9507082380237135,0.5538461538461539,-0.5769230769230769,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv
+DirectLLM,Direct_LLM,none,"Medium (5, 7]",medium,436,1.128440366972477,1.3146143956211311,0.30504587155963303,-1.098623853211009,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv
+DirectLLM,Direct_LLM,none,"High (7, 9]",high,210,1.3976190476190475,1.6765185014530217,0.26666666666666666,-1.3928571428571428,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv
+LightGBM,LightGBM,nearest,"Low [0, 5]",low,65,0.9384615384615385,1.1094003924504583,0.38461538461538464,0.8615384615384616,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv
+LightGBM,LightGBM,nearest,"Medium (5, 7]",medium,436,0.49426605504587157,0.6570890769491391,0.7614678899082569,0.09518348623853211,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv
+LightGBM,LightGBM,nearest,"High (7, 9]",high,210,0.6261904761904762,0.8345229603962802,0.6285714285714286,-0.5261904761904762,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv
+RidgeRegression,Ridge_Regression,nearest,"Low [0, 5]",low,65,0.9615384615384616,1.1351041971825928,0.38461538461538464,0.9,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv
+RidgeRegression,Ridge_Regression,nearest,"Medium (5, 7]",medium,436,0.4782110091743119,0.6193552433225965,0.7935779816513762,0.10435779816513761,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv
+RidgeRegression,Ridge_Regression,nearest,"High (7, 9]",high,210,0.6333333333333333,0.8135752957807666,0.638095238095238,-0.47619047619047616,ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv

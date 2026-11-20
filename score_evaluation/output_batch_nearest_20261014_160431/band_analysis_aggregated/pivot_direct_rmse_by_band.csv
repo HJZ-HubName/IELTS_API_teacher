@@ -1,0 +1,13 @@
+﻿Band_Display,Method_Display,Rounding_Mode,RMSE_mean
+High,Arithmetic Mean,nearest,1.2876157481808297
+High,Direct LLM,none,1.6853833467018462
+High,LightGBM,nearest,0.8526859774271093
+High,Ridge Regression,nearest,0.8659210750753144
+Low,Arithmetic Mean,nearest,0.8805809996608942
+Low,Direct LLM,none,0.7391623822949821
+Low,LightGBM,nearest,1.1694932676281855
+Low,Ridge Regression,nearest,1.1145249256152212
+Medium,Arithmetic Mean,nearest,0.9052096534263437
+Medium,Direct LLM,none,1.1005749734566626
+Medium,LightGBM,nearest,0.6500099473420494
+Medium,Ridge Regression,nearest,0.6379775151647789

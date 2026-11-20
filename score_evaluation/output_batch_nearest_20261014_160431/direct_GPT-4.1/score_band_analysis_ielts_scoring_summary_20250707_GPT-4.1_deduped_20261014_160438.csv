@@ -1,0 +1,13 @@
+﻿方法代码,方法名称,Rounding_Mode,分数段,分段代码,样本数,MAE,RMSE,Within_0.5_Acc,"平均偏差(>0高估,<0低估)",输入文件
+ArithmeticMean,Arithmetic_Mean,nearest,"Low [0, 5]",low,65,0.5615384615384615,0.7098212125924062,0.6615384615384615,0.14615384615384616,ielts_scoring_summary_20250707_GPT-4.1_deduped.csv
+ArithmeticMean,Arithmetic_Mean,nearest,"Medium (5, 7]",medium,436,0.6444954128440367,0.8211649813560638,0.6422018348623854,-0.5068807339449541,ielts_scoring_summary_20250707_GPT-4.1_deduped.csv
+ArithmeticMean,Arithmetic_Mean,nearest,"High (7, 9]",high,210,1.0333333333333334,1.2227992865708155,0.3238095238095238,-1.019047619047619,ielts_scoring_summary_20250707_GPT-4.1_deduped.csv
+DirectLLM,Direct_LLM,none,"Low [0, 5]",low,65,0.45384615384615384,0.6108002317263175,0.7384615384615385,0.038461538461538464,ielts_scoring_summary_20250707_GPT-4.1_deduped.csv
+DirectLLM,Direct_LLM,none,"Medium (5, 7]",medium,436,0.7098623853211009,0.8827474832963587,0.6009174311926605,-0.6295871559633027,ielts_scoring_summary_20250707_GPT-4.1_deduped.csv
+DirectLLM,Direct_LLM,none,"High (7, 9]",high,210,1.2619047619047619,1.4251148658800739,0.19523809523809524,-1.2619047619047619,ielts_scoring_summary_20250707_GPT-4.1_deduped.csv
+LightGBM,LightGBM,nearest,"Low [0, 5]",low,65,0.9923076923076923,1.1783299785974803,0.3384615384615385,0.9923076923076923,ielts_scoring_summary_20250707_GPT-4.1_deduped.csv
+LightGBM,LightGBM,nearest,"Medium (5, 7]",medium,436,0.45642201834862384,0.6179649941096617,0.7775229357798165,0.09403669724770643,ielts_scoring_summary_20250707_GPT-4.1_deduped.csv
+LightGBM,LightGBM,nearest,"High (7, 9]",high,210,0.6428571428571429,0.8352359233288805,0.6047619047619047,-0.5761904761904761,ielts_scoring_summary_20250707_GPT-4.1_deduped.csv
+RidgeRegression,Ridge_Regression,nearest,"Low [0, 5]",low,65,0.9230769230769231,1.0705857490896495,0.4461538461538462,0.8307692307692308,ielts_scoring_summary_20250707_GPT-4.1_deduped.csv
+RidgeRegression,Ridge_Regression,nearest,"Medium (5, 7]",medium,436,0.48394495412844035,0.6618711313355591,0.7454128440366973,0.1536697247706422,ielts_scoring_summary_20250707_GPT-4.1_deduped.csv
+RidgeRegression,Ridge_Regression,nearest,"High (7, 9]",high,210,0.6190476190476191,0.7590721152765896,0.7095238095238096,-0.48095238095238096,ielts_scoring_summary_20250707_GPT-4.1_deduped.csv

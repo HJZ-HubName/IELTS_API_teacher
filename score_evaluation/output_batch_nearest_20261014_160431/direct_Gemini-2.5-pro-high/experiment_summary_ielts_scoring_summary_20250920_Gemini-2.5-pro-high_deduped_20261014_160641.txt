@@ -1,0 +1,61 @@
+IELTS Writing Auto-Scoring - Experiment Summary
+============================================================
+
+时间: 2026-10-14 16:06:41
+数据文件: score_data_all\direct_all\ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped.csv
+LLM: Gemini-2.5-pro-high
+Prompting: Direct
+样本数: 711
+CV: 5-fold × 10-repeat
+随机种子: 42
+
+半分取整规则:
+  M1: nearest
+  M2: nearest
+  M4: nearest
+
+性能 (mean ± std):
+------------------------------------------------------------
+
+Arithmetic_Mean:
+  MAE:        0.654±0.000
+  RMSE:       0.860±0.000
+  Pearson r:  0.728±0.000
+  QWK:        0.709±0.000
+  Within-0.5: 0.647±0.000
+
+Direct_LLM:
+  MAE:        1.172±0.000
+  RMSE:       1.404±0.000
+  Pearson r:  0.721±0.000
+  QWK:        0.471±0.000
+  Within-0.5: 0.316±0.000
+
+LightGBM:
+  MAE:        0.593±0.012
+  RMSE:       0.778±0.009
+  Pearson r:  0.708±0.008
+  QWK:        0.672±0.014
+  Within-0.5: 0.672±0.009
+
+Ridge_Regression:
+  MAE:        0.568±0.004
+  RMSE:       0.741±0.005
+  Pearson r:  0.739±0.004
+  QWK:        0.712±0.003
+  Within-0.5: 0.710±0.007
+
+生成文件 (13 个):
+  evaluation_metrics_ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped_20261014_160635.csv
+  score_band_analysis_ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped_20261014_160635.csv
+  significance_test_ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped_20261014_160635.csv
+  feature_importance_ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped_20261014_160635.csv
+  detailed_results_ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped_20261014_160635.csv
+  oof_predictions_ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped_20261014_160635.npz
+  method_comparison_ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped_20261014_160635.png
+  prediction_scatter_ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped_20261014_160635.png
+  error_distribution_ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped_20261014_160635.png
+  feature_importance_ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped_20261014_160635.png
+  score_band_analysis_ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped_20261014_160635.png
+  error_boxplot_by_score_ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped_20261014_160635.png
+  summary_ielts_scoring_summary_20250920_Gemini-2.5-pro-high_deduped_20261014_160635.png

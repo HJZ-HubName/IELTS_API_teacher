@@ -1,0 +1,61 @@
+IELTS Writing Auto-Scoring - Experiment Summary
+============================================================
+
+时间: 2026-10-14 16:04:43
+数据文件: score_data_all\direct_all\ielts_scoring_summary_20250707_GPT-4.1_deduped.csv
+LLM: GPT-4.1
+Prompting: Direct
+样本数: 711
+CV: 5-fold × 10-repeat
+随机种子: 42
+
+半分取整规则:
+  M1: nearest
+  M2: nearest
+  M4: nearest
+
+性能 (mean ± std):
+------------------------------------------------------------
+
+Arithmetic_Mean:
+  MAE:        0.752±0.000
+  RMSE:       0.949±0.000
+  Pearson r:  0.747±0.000
+  QWK:        0.625±0.000
+  Within-0.5: 0.550±0.000
+
+Direct_LLM:
+  MAE:        0.850±0.000
+  RMSE:       1.054±0.000
+  Pearson r:  0.744±0.000
+  QWK:        0.555±0.000
+  Within-0.5: 0.494±0.000
+
+LightGBM:
+  MAE:        0.568±0.007
+  RMSE:       0.755±0.004
+  Pearson r:  0.728±0.003
+  QWK:        0.690±0.009
+  Within-0.5: 0.686±0.006
+
+Ridge_Regression:
+  MAE:        0.570±0.003
+  RMSE:       0.744±0.004
+  Pearson r:  0.738±0.004
+  QWK:        0.710±0.005
+  Within-0.5: 0.705±0.005
+
+生成文件 (13 个):
+  evaluation_metrics_ielts_scoring_summary_20250707_GPT-4.1_deduped_20261014_160438.csv
+  score_band_analysis_ielts_scoring_summary_20250707_GPT-4.1_deduped_20261014_160438.csv
+  significance_test_ielts_scoring_summary_20250707_GPT-4.1_deduped_20261014_160438.csv
+  feature_importance_ielts_scoring_summary_20250707_GPT-4.1_deduped_20261014_160438.csv
+  detailed_results_ielts_scoring_summary_20250707_GPT-4.1_deduped_20261014_160438.csv
+  oof_predictions_ielts_scoring_summary_20250707_GPT-4.1_deduped_20261014_160438.npz
+  method_comparison_ielts_scoring_summary_20250707_GPT-4.1_deduped_20261014_160438.png
+  prediction_scatter_ielts_scoring_summary_20250707_GPT-4.1_deduped_20261014_160438.png
+  error_distribution_ielts_scoring_summary_20250707_GPT-4.1_deduped_20261014_160438.png
+  feature_importance_ielts_scoring_summary_20250707_GPT-4.1_deduped_20261014_160438.png
+  score_band_analysis_ielts_scoring_summary_20250707_GPT-4.1_deduped_20261014_160438.png
+  error_boxplot_by_score_ielts_scoring_summary_20250707_GPT-4.1_deduped_20261014_160438.png
+  summary_ielts_scoring_summary_20250707_GPT-4.1_deduped_20261014_160438.png

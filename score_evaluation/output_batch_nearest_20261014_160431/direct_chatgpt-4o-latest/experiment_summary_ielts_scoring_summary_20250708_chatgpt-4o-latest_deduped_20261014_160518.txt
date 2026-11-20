@@ -1,0 +1,61 @@
+IELTS Writing Auto-Scoring - Experiment Summary
+============================================================
+
+时间: 2026-10-14 16:05:18
+数据文件: score_data_all\direct_all\ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped.csv
+LLM: chatgpt-4o-latest
+Prompting: Direct
+样本数: 711
+CV: 5-fold × 10-repeat
+随机种子: 42
+
+半分取整规则:
+  M1: nearest
+  M2: nearest
+  M4: nearest
+
+性能 (mean ± std):
+------------------------------------------------------------
+
+Arithmetic_Mean:
+  MAE:        0.661±0.000
+  RMSE:       0.858±0.000
+  Pearson r:  0.759±0.000
+  QWK:        0.679±0.000
+  Within-0.5: 0.624±0.000
+
+Direct_LLM:
+  MAE:        0.854±0.000
+  RMSE:       1.054±0.000
+  Pearson r:  0.755±0.000
+  QWK:        0.564±0.000
+  Within-0.5: 0.492±0.000
+
+LightGBM:
+  MAE:        0.545±0.005
+  RMSE:       0.737±0.005
+  Pearson r:  0.743±0.004
+  QWK:        0.715±0.009
+  Within-0.5: 0.709±0.004
+
+Ridge_Regression:
+  MAE:        0.556±0.003
+  RMSE:       0.737±0.003
+  Pearson r:  0.742±0.003
+  QWK:        0.709±0.002
+  Within-0.5: 0.718±0.004
+
+生成文件 (13 个):
+  evaluation_metrics_ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped_20261014_160512.csv
+  score_band_analysis_ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped_20261014_160512.csv
+  significance_test_ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped_20261014_160512.csv
+  feature_importance_ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped_20261014_160512.csv
+  detailed_results_ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped_20261014_160512.csv
+  oof_predictions_ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped_20261014_160512.npz
+  method_comparison_ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped_20261014_160512.png
+  prediction_scatter_ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped_20261014_160512.png
+  error_distribution_ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped_20261014_160512.png
+  feature_importance_ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped_20261014_160512.png
+  score_band_analysis_ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped_20261014_160512.png
+  error_boxplot_by_score_ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped_20261014_160512.png
+  summary_ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped_20261014_160512.png

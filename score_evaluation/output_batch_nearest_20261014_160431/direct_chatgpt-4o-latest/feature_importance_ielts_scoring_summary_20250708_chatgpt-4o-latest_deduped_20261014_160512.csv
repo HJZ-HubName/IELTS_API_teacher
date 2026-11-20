@@ -1,0 +1,9 @@
+﻿Method,Method_Code,Rounding_Mode,Feature_Name,Importance_Score,Raw_File,Evaluation_Time
+LightGBM,LightGBM,nearest,ai_lexical_resource,1006.4825674547926,ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped.csv,2026-10-14 16:05:12
+LightGBM,LightGBM,nearest,ai_grammatical_range_and_accuracy,277.143035306276,ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped.csv,2026-10-14 16:05:12
+LightGBM,LightGBM,nearest,ai_coherence_and_cohesion,159.97207822791347,ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped.csv,2026-10-14 16:05:12
+LightGBM,LightGBM,nearest,ai_task_response,140.9522252204622,ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped.csv,2026-10-14 16:05:12
+Ridge_Regression,RidgeRegression,nearest,ai_grammatical_range_and_accuracy,0.27376918763676444,ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped.csv,2026-10-14 16:05:12
+Ridge_Regression,RidgeRegression,nearest,ai_lexical_resource,0.20840133472635802,ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped.csv,2026-10-14 16:05:12
+Ridge_Regression,RidgeRegression,nearest,ai_coherence_and_cohesion,0.19101488120343796,ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped.csv,2026-10-14 16:05:12
+Ridge_Regression,RidgeRegression,nearest,ai_task_response,0.17149231621173416,ielts_scoring_summary_20250708_chatgpt-4o-latest_deduped.csv,2026-10-14 16:05:12
